@@ -1,0 +1,28 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Unfav.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="AddCart.rxrec" />
+    <Element value="Unfav.rxrec" />
+    <Element value="eCommerceTest.rxtst" />
+    <Element value="BuyVerify.rxrec" />
+    <Element value="SignOut.rxrec" />
+    <Element value="EmptyErrorVerify.rxrec" />
+    <Element value="BlankErrorVerify.rxrec" />
+    <Element value="WishListVerify.rxrec" />
+    <Element value="SignIn.rxrec" />
+    <Element value="PresentVerify.rxrec" />
+    <Element value="OpenSignInPage.rxrec" />
+    <Element value="CloseBrowser.rxrec" />
+    <Element value="OpenMainPage.rxrec" />
+    <Element value="OpenRegPage.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

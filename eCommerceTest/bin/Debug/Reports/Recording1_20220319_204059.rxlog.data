@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.7m"
+		durationms="101868"
+		type="root"
+		rid="2145afb521b8253c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dogayagcizeybek"
+		rxversion="10.1.7.0"
+		host="DOGAYAGCIZEA027"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="2880x1674"
+		timestamp="3/19/2022 8:41:03 PM"
+		timestampiso="2022-03-19T17:41:03"
+		endtime="3/19/2022 8:42:45 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to find item 'eCommerceTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.TyCheckboxWrapperTyDisplayFlex1'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.540"
+			timeRelativeToTestModuleStartTime="00:07.540"
+			timeWallClock="20:41:11"
+			time="00:07.540"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.EmailInputQInputWrapper' at 216;44.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[1]"
+				itempath="div[1]"
+				fullname="eCommerceTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.EmailInputQInputWrapper"
+				id="2989949b9a194cbeb20fa35b42876ca1"
+				timeout="90000"
+				codefile="c:\Users\dogayagcizeybek\Documents\Ranorex\RanorexStudio Projects\eCommerceTest\eCommerceTest\Recording1.cs"
+				codeline="82"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.074"
+			timeRelativeToTestModuleStartTime="00:09.074"
+			timeWallClock="20:41:12"
+			time="00:09.074"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.QInputWrapper' at 194;48.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[2]/?/?/div"
+				itempath="div[2]/?/?/div"
+				fullname="eCommerceTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.QInputWrapper"
+				id="83b2d64a150948d0acc4033fa10f2e34"
+				timeout="90000"
+				codefile="c:\Users\dogayagcizeybek\Documents\Ranorex\RanorexStudio Projects\eCommerceTest\eCommerceTest\Recording1.cs"
+				codeline="86"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.751"
+			timeRelativeToTestModuleStartTime="00:09.751"
+			timeWallClock="20:41:13"
+			time="00:09.751"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.FlexFlexColumnGender' at 248;44.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]"
+				itempath="div[3]"
+				fullname="eCommerceTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.FlexFlexColumnGender"
+				id="1a9fdd4217694a74ad9a819810d7945b"
+				timeout="90000"
+				codefile="c:\Users\dogayagcizeybek\Documents\Ranorex\RanorexStudio Projects\eCommerceTest\eCommerceTest\Recording1.cs"
+				codeline="90"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.037"
+			timeRelativeToTestModuleStartTime="00:10.037"
+			timeWallClock="20:41:13"
+			time="00:10.037"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_b92a4284\Recordin_24c9af27_rxlog.jpg"
+			errthumb="images_Recordin_b92a4284\Recordin_24c9af27_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\dogayagcizeybek\Documents\Ranorex\RanorexStudio Projects\eCommerceTest\eCommerceTest\Recording1.cs"
+				codeline="91"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.516"
+			timeRelativeToTestModuleStartTime="00:10.516"
+			timeWallClock="20:41:14"
+			time="00:10.516"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.TyCheckboxWrapperTyDisplayFlex' at 54;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[5]/div/div[1]"
+				itempath="div[5]/div/div[1]"
+				fullname="eCommerceTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.TyCheckboxWrapperTyDisplayFlex"
+				id="e5333cc0afa141e9ac4a2c8d6cb6c614"
+				timeout="90000"
+				codefile="c:\Users\dogayagcizeybek\Documents\Ranorex\RanorexStudio Projects\eCommerceTest\eCommerceTest\Recording1.cs"
+				codeline="94"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.167"
+			timeRelativeToTestModuleStartTime="00:11.167"
+			timeWallClock="20:41:14"
+			time="00:11.167"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_b92a4284\Recordin_b92a4284_b24b0a3e_trace.jpg"
+			errthumb="images_Recordin_b92a4284\Recordin_b92a4284_b24b0a3e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.TyCheckboxWrapperTyDisplayFlex1' at 50;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[6]/div/div[1]"
+				itempath="div[6]/div/div[1]"
+				fullname="eCommerceTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.TyCheckboxWrapperTyDisplayFlex1"
+				id="47224e7f262f4f55bedd0980a740a499"
+				timeout="90000"
+				codefile="c:\Users\dogayagcizeybek\Documents\Ranorex\RanorexStudio Projects\eCommerceTest\eCommerceTest\Recording1.cs"
+				codeline="98"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:41.247"
+			timeRelativeToTestModuleStartTime="01:41.247"
+			timeWallClock="20:42:45"
+			time="01:41.247"
+			level="Info"
+			category="User"
+			errimg="images_Recordin_b92a4284\Recordin_b92a4284_7f7b446b_trace.jpg"
+			errthumb="images_Recordin_b92a4284\Recordin_b92a4284_7f7b446b_trace_thumb.jpg">
+			<message>
+				Item 'TyCheckboxWrapperTyDisplayFlex1' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="c:\Users\dogayagcizeybek\Documents\Ranorex\RanorexStudio Projects\eCommerceTest\eCommerceTest\Recording1.cs"
+				codeline="99"
+				loglvl="Info"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:41.652"
+			timeRelativeToTestModuleStartTime="01:41.652"
+			timeWallClock="20:42:45"
+			time="01:41.652"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_b92a4284\Recordin_b92a4284_292157d3_trace.jpg"
+			errthumb="images_Recordin_b92a4284\Recordin_b92a4284_292157d3_trace_thumb.jpg">
+			<message>
+				Failed to find item 'eCommerceTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.TyCheckboxWrapperTyDisplayFlex1'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[6]/div/div[1]' at step 'div[6]' after 775 attempts within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.get_TyCheckboxWrapperTyDisplayFlex1() in c:\Users\dogayagcizeybek\Documents\Ranorex\RanorexStudio Projects\eCommerceTest\eCommerceTest\eCommerceTestRepository.cs:line 469&#13;&#10;   at eCommerceTest.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dogayagcizeybek\Documents\Ranorex\RanorexStudio Projects\eCommerceTest\eCommerceTest\Recording1.cs:line 99&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\dogayagcizeybek\Documents\Ranorex\RanorexStudio Projects\eCommerceTest\eCommerceTest\Recording1.cs"
+				codeline="99"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[6]/div/div[1]"
+				itempath="div[6]/div/div[1]"
+				fullname="eCommerceTestRepository.ApplicationUnderTest.HttpsWwwTrendyolComUyelikcbEqhttps.TyCheckboxWrapperTyDisplayFlex1"
+				id="47224e7f262f4f55bedd0980a740a499"
+				timeout="90000"
+				failedStep="div[6]"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

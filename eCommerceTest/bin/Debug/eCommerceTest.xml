@@ -1,0 +1,1876 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>eCommerceTest</name>
+    </assembly>
+    <members>
+        <member name="T:eCommerceTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepository">
+            <summary>
+            The class representing the eCommerceTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the eCommerceTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepository.HttpsWwwTrendyolComUyelikcbEqhttps">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttps folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepository.TranslateThisPage">
+            <summary>
+            The TranslateThisPage folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepository.NewTabProfile1MicrosoftEdge">
+            <summary>
+            The NewTabProfile1MicrosoftEdge folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepository.NewTab">
+            <summary>
+            The NewTab folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepository.ChromeWidgetWin1">
+            <summary>
+            The ChromeWidgetWin1 folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepository.DOGAYAGCIZEA027">
+            <summary>
+            The DOGAYAGCIZEA027 folder.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.Trendyol">
+            <summary>
+            The Trendyol item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.TrendyolInfo">
+            <summary>
+            The Trendyol item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.IUserOrange">
+            <summary>
+            The IUserOrange item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.IUserOrangeInfo">
+            <summary>
+            The IUserOrange item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.RegisterEmail">
+            <summary>
+            The RegisterEmail item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.RegisterEmailInfo">
+            <summary>
+            The RegisterEmail item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.RegisterPasswordInput">
+            <summary>
+            The RegisterPasswordInput item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.RegisterPasswordInputInfo">
+            <summary>
+            The RegisterPasswordInput item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ErrorBoxWrapper">
+            <summary>
+            The ErrorBoxWrapper item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ErrorBoxWrapperInfo">
+            <summary>
+            The ErrorBoxWrapper item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.Container">
+            <summary>
+            The Container item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ContainerInfo">
+            <summary>
+            The Container item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.BrowsingGwHomepage">
+            <summary>
+            The BrowsingGwHomepage item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.BrowsingGwHomepageInfo">
+            <summary>
+            The BrowsingGwHomepage item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.LoginEmail">
+            <summary>
+            The LoginEmail item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.LoginEmailInfo">
+            <summary>
+            The LoginEmail item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.LoginPasswordInput">
+            <summary>
+            The LoginPasswordInput item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.LoginPasswordInputInfo">
+            <summary>
+            The LoginPasswordInput item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle1">
+            <summary>
+            The SepeteEkle1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle1Info">
+            <summary>
+            The SepeteEkle1 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEklendi1">
+            <summary>
+            The SepeteEklendi1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEklendi1Info">
+            <summary>
+            The SepeteEklendi1 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.AddToBasketButton">
+            <summary>
+            The AddToBasketButton item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.AddToBasketButtonInfo">
+            <summary>
+            The AddToBasketButton item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.Hesabım">
+            <summary>
+            The Hesabım item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.HesabımInfo">
+            <summary>
+            The Hesabım item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn">
+            <summary>
+            The FvrtBtn item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtnInfo">
+            <summary>
+            The FvrtBtn item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn1">
+            <summary>
+            The FvrtBtn1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn1Info">
+            <summary>
+            The FvrtBtn1 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize200200">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize200200 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize200200Info">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize200200 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize2002001">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize2002001 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize2002001Info">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize2002001 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.CıkışYap">
+            <summary>
+            The CıkışYap item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.CıkışYapInfo">
+            <summary>
+            The CıkışYap item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.Suepermarket">
+            <summary>
+            The Suepermarket item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SuepermarketInfo">
+            <summary>
+            The Suepermarket item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.Kahve">
+            <summary>
+            The Kahve item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.KahveInfo">
+            <summary>
+            The Kahve item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.Sepetim">
+            <summary>
+            The Sepetim item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SepetimInfo">
+            <summary>
+            The Sepetim item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SiparişiTamamla">
+            <summary>
+            The SiparişiTamamla item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SiparişiTamamlaInfo">
+            <summary>
+            The SiparişiTamamla item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.TyCross">
+            <summary>
+            The TyCross item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.TyCrossInfo">
+            <summary>
+            The TyCross item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComWebProductionTy">
+            <summary>
+            The HttpsCdnDsmcdnComWebProductionTy item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComWebProductionTyInfo">
+            <summary>
+            The HttpsCdnDsmcdnComWebProductionTy item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SomeDivTag">
+            <summary>
+            The SomeDivTag item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.SomeDivTagInfo">
+            <summary>
+            The SomeDivTag item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsWwwTrendyolComUyelikcbEqhttps">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttps folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.FlexCenterHeaderButtons">
+            <summary>
+            The FlexCenterHeaderButtons folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.BtnBasket">
+            <summary>
+            The BtnBasket folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.FavoredProductContainer">
+            <summary>
+            The FavoredProductContainer folder.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.IUserOrangeInfoClass">
+            <summary>
+            The IUserOrangeInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.IUserOrangeInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            IUserOrangeInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.IUserOrangeInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.IUserOrangeInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ErrorBoxWrapperInfoClass">
+            <summary>
+            The ErrorBoxWrapperInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ErrorBoxWrapperInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ErrorBoxWrapperInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ErrorBoxWrapperInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ErrorBoxWrapperInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ContainerInfoClass">
+            <summary>
+            The ContainerInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ContainerInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ContainerInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ContainerInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ApplicationUnderTestAppFolder.ContainerInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttpsFolder folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsWwwTrendyolComUyelikcbEqhttps  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.EmailInputQInputWrapper">
+            <summary>
+            The EmailInputQInputWrapper item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.EmailInputQInputWrapperInfo">
+            <summary>
+            The EmailInputQInputWrapper item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.QInputWrapper">
+            <summary>
+            The QInputWrapper item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.QInputWrapperInfo">
+            <summary>
+            The QInputWrapper item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.FlexFlexColumnGender">
+            <summary>
+            The FlexFlexColumnGender item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.FlexFlexColumnGenderInfo">
+            <summary>
+            The FlexFlexColumnGender item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlex">
+            <summary>
+            The TyCheckboxWrapperTyDisplayFlex item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlexInfo">
+            <summary>
+            The TyCheckboxWrapperTyDisplayFlex item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlex1">
+            <summary>
+            The TyCheckboxWrapperTyDisplayFlex1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlex1Info">
+            <summary>
+            The TyCheckboxWrapperTyDisplayFlex1 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.Kadın">
+            <summary>
+            The Kadın item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.KadınInfo">
+            <summary>
+            The Kadın item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.Erkek">
+            <summary>
+            The Erkek item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.ErkekInfo">
+            <summary>
+            The Erkek item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyBgBeigeTyBorderedTyCheckboxTyI">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyBgBeigeTyBorderedTyCheckboxTyIInfo">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyBgBeigeTyBorderedTyCheckboxTyI1">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyBgBeigeTyBorderedTyCheckboxTyI1Info">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI1 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheck">
+            <summary>
+            The TyCheck item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckInfo">
+            <summary>
+            The TyCheck item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyBgBeigeTyBorderedTyCheckboxTyI2">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI2 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyBgBeigeTyBorderedTyCheckboxTyI2Info">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI2 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.ŞifrenizEnAz7KarakterOlmalıHarfV">
+            <summary>
+            The ŞifrenizEnAz7KarakterOlmalıHarfV item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.ŞifrenizEnAz7KarakterOlmalıHarfVInfo">
+            <summary>
+            The ŞifrenizEnAz7KarakterOlmalıHarfV item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.BorderRightNoneFemaleQButtonQButt">
+            <summary>
+            The BorderRightNoneFemaleQButtonQButt item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.BorderRightNoneFemaleQButtonQButtInfo">
+            <summary>
+            The BorderRightNoneFemaleQButtonQButt item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.MaleQButtonQButtonMediumQFluidQ">
+            <summary>
+            The MaleQButtonQButtonMediumQFluidQ item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.MaleQButtonQButtonMediumQFluidQInfo">
+            <summary>
+            The MaleQButtonQButtonMediumQFluidQ item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheck1">
+            <summary>
+            The TyCheck1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheck1Info">
+            <summary>
+            The TyCheck1 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheck2">
+            <summary>
+            The TyCheck2 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheck2Info">
+            <summary>
+            The TyCheck2 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.PasswordWrapper">
+            <summary>
+            The PasswordWrapper item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.PasswordWrapperInfo">
+            <summary>
+            The PasswordWrapper item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.MarketingCheckbox">
+            <summary>
+            The MarketingCheckbox item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.MarketingCheckboxInfo">
+            <summary>
+            The MarketingCheckbox item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.PersonalCheckbox">
+            <summary>
+            The PersonalCheckbox item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.PersonalCheckboxInfo">
+            <summary>
+            The PersonalCheckbox item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheck3">
+            <summary>
+            The TyCheck3 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheck3Info">
+            <summary>
+            The TyCheck3 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyBgBeigeTyBorderedTyCheckboxTyI3">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI3 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyBgBeigeTyBorderedTyCheckboxTyI3Info">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI3 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.HttpsWwwTrendyolComUyelikcbEqhttps">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttps item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.HttpsWwwTrendyolComUyelikcbEqhttpsInfo">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttps item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.QButtonQButtonMediumQFluidQPrima">
+            <summary>
+            The QButtonQButtonMediumQFluidQPrima item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.QButtonQButtonMediumQFluidQPrimaInfo">
+            <summary>
+            The QButtonQButtonMediumQFluidQPrima item info.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.EmailInputQInputWrapperInfoClass">
+            <summary>
+            The EmailInputQInputWrapperInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.EmailInputQInputWrapperInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            EmailInputQInputWrapperInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.EmailInputQInputWrapperInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.EmailInputQInputWrapperInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.QInputWrapperInfoClass">
+            <summary>
+            The QInputWrapperInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.QInputWrapperInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            QInputWrapperInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.QInputWrapperInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.QInputWrapperInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.FlexFlexColumnGenderInfoClass">
+            <summary>
+            The FlexFlexColumnGenderInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.FlexFlexColumnGenderInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            FlexFlexColumnGenderInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.FlexFlexColumnGenderInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.FlexFlexColumnGenderInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlexInfoClass">
+            <summary>
+            The TyCheckboxWrapperTyDisplayFlexInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlexInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            TyCheckboxWrapperTyDisplayFlexInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlexInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlexInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlex1InfoClass">
+            <summary>
+            The TyCheckboxWrapperTyDisplayFlex1InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlex1InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            TyCheckboxWrapperTyDisplayFlex1InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlex1InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.TyCheckboxWrapperTyDisplayFlex1InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.HttpsWwwTrendyolComUyelikcbEqhttpsInfoClass">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttpsInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.HttpsWwwTrendyolComUyelikcbEqhttpsInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            HttpsWwwTrendyolComUyelikcbEqhttpsInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.HttpsWwwTrendyolComUyelikcbEqhttpsInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.HttpsWwwTrendyolComUyelikcbEqhttpsInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder">
+            <summary>
+            The FlexCenterHeaderButtonsFolder folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FlexCenterHeaderButtons  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.ButtonLeftMr5QButtonQButtonMediu">
+            <summary>
+            The ButtonLeftMr5QButtonQButtonMediu item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.ButtonLeftMr5QButtonQButtonMediuInfo">
+            <summary>
+            The ButtonLeftMr5QButtonQButtonMediu item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.ButtonQButtonQButtonMediumQSecond">
+            <summary>
+            The ButtonQButtonQButtonMediumQSecond item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.ButtonQButtonQButtonMediumQSecondInfo">
+            <summary>
+            The ButtonQButtonQButtonMediumQSecond item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.UEyeOl1">
+            <summary>
+            The UEyeOl1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.UEyeOl1Info">
+            <summary>
+            The UEyeOl1 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.Fill1">
+            <summary>
+            The Fill1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.Fill1Info">
+            <summary>
+            The Fill1 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.EPostaVeŞifreniziGiriniz">
+            <summary>
+            The EPostaVeŞifreniziGiriniz item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.EPostaVeŞifreniziGirinizInfo">
+            <summary>
+            The EPostaVeŞifreniziGiriniz item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.QButtonQButtonMediumQFluidQPrima">
+            <summary>
+            The QButtonQButtonMediumQFluidQPrima item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FlexCenterHeaderButtonsFolder.QButtonQButtonMediumQFluidQPrimaInfo">
+            <summary>
+            The QButtonQButtonMediumQFluidQPrima item info.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.BtnBasketFolder">
+            <summary>
+            The BtnBasketFolder folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.BtnBasketFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BtnBasket  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.BtnBasketFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.BtnBasketFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.BtnBasketFolder.AddToBasketButton">
+            <summary>
+            The AddToBasketButton item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.BtnBasketFolder.AddToBasketButtonInfo">
+            <summary>
+            The AddToBasketButton item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.BtnBasketFolder.SepeteEkle">
+            <summary>
+            The SepeteEkle item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.BtnBasketFolder.SepeteEkleInfo">
+            <summary>
+            The SepeteEkle item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.BtnBasketFolder.SepeteEklendi">
+            <summary>
+            The SepeteEklendi item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.BtnBasketFolder.SepeteEklendiInfo">
+            <summary>
+            The SepeteEklendi item info.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder">
+            <summary>
+            The FavoredProductContainerFolder folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FavoredProductContainer  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.FeaturedFv">
+            <summary>
+            The FeaturedFv item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.FeaturedFvInfo">
+            <summary>
+            The FeaturedFv item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.IHeartOrange">
+            <summary>
+            The IHeartOrange item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.IHeartOrangeInfo">
+            <summary>
+            The IHeartOrange item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.FeaturedFv1">
+            <summary>
+            The FeaturedFv1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.FeaturedFv1Info">
+            <summary>
+            The FeaturedFv1 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.IHeartOrange1">
+            <summary>
+            The IHeartOrange1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.FavoredProductContainerFolder.IHeartOrange1Info">
+            <summary>
+            The IHeartOrange1 item info.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1 folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsWwwTrendyolComUyelikcbEqhttps  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.Back">
+            <summary>
+            The Back item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.BackInfo">
+            <summary>
+            The Back item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.Reload">
+            <summary>
+            The Reload item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.ReloadInfo">
+            <summary>
+            The Reload item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.ComboBox">
+            <summary>
+            The ComboBox item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.ComboBoxInfo">
+            <summary>
+            The ComboBox item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.GİRİŞYAP">
+            <summary>
+            The GİRİŞYAP item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder1.GİRİŞYAPInfo">
+            <summary>
+            The GİRİŞYAP item info.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.TranslateThisPageAppFolder">
+            <summary>
+            The TranslateThisPageAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.TranslateThisPageAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TranslateThisPage  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.TranslateThisPageAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.TranslateThisPageAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.TranslateThisPageAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.TranslateThisPageAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder">
+            <summary>
+            The NewTabProfile1MicrosoftEdgeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTabProfile1MicrosoftEdge  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.IntermediateD3DWindow">
+            <summary>
+            The IntermediateD3DWindow item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.IntermediateD3DWindowInfo">
+            <summary>
+            The IntermediateD3DWindow item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.IntermediateD3DWindow1">
+            <summary>
+            The IntermediateD3DWindow1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.NewTabProfile1MicrosoftEdgeAppFolder.IntermediateD3DWindow1Info">
+            <summary>
+            The IntermediateD3DWindow1 item info.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.NewTabAppFolder">
+            <summary>
+            The NewTabAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.NewTabAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTab  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.NewTabAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.NewTabAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder">
+            <summary>
+            The ChromeWidgetWin1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ChromeWidgetWin1  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.None">
+            <summary>
+            The None item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.NoneInfo">
+            <summary>
+            The None item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.None1">
+            <summary>
+            The None1 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.None1Info">
+            <summary>
+            The None1 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.ToolBar">
+            <summary>
+            The ToolBar item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.ToolBarInfo">
+            <summary>
+            The ToolBar item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.Chrome">
+            <summary>
+            The Chrome item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.ChromeInfo">
+            <summary>
+            The Chrome item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.Back">
+            <summary>
+            The Back item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.BackInfo">
+            <summary>
+            The Back item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.Element877568288">
+            <summary>
+            The Element877568288 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.Element877568288Info">
+            <summary>
+            The Element877568288 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.Element897760608">
+            <summary>
+            The Element897760608 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.Element897760608Info">
+            <summary>
+            The Element897760608 item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.IntermediateD3DWindow">
+            <summary>
+            The IntermediateD3DWindow item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.ChromeWidgetWin1AppFolder.IntermediateD3DWindowInfo">
+            <summary>
+            The IntermediateD3DWindow item info.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.eCommerceTestRepositoryFolders.DOGAYAGCIZEA027AppFolder">
+            <summary>
+            The DOGAYAGCIZEA027AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.eCommerceTestRepositoryFolders.DOGAYAGCIZEA027AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DOGAYAGCIZEA027  folder.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.DOGAYAGCIZEA027AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.DOGAYAGCIZEA027AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.DOGAYAGCIZEA027AppFolder.DOGAYAGCIZEA027">
+            <summary>
+            The DOGAYAGCIZEA027 item.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.eCommerceTestRepositoryFolders.DOGAYAGCIZEA027AppFolder.DOGAYAGCIZEA027Info">
+            <summary>
+            The DOGAYAGCIZEA027 item info.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.OpenMainPage">
+             <summary>
+            The OpenMainPage recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.OpenMainPage.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.OpenMainPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.OpenMainPage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.OpenMainPage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.OpenMainPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.OpenMainPage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.OpenMainPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.OpenRegPage">
+             <summary>
+            The OpenRegPage recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.OpenRegPage.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.OpenRegPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.OpenRegPage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.OpenRegPage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.OpenRegPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.OpenRegPage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.OpenRegPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.OpenSignInPage">
+             <summary>
+            The OpenSignInPage recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.OpenSignInPage.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.OpenSignInPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.OpenSignInPage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.OpenSignInPage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.OpenSignInPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.OpenSignInPage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.OpenSignInPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.PresentVerify">
+             <summary>
+            The PresentVerify recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.PresentVerify.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.PresentVerify.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.PresentVerify.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.PresentVerify.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.PresentVerify.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.PresentVerify.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.PresentVerify.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.EmptyErrorVerify">
+             <summary>
+            The EmptyErrorVerify recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.EmptyErrorVerify.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.EmptyErrorVerify.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.EmptyErrorVerify.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.EmptyErrorVerify.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.EmptyErrorVerify.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.EmptyErrorVerify.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.EmptyErrorVerify.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.BlankErrorVerify">
+             <summary>
+            The BlankErrorVerify recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.BlankErrorVerify.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.BlankErrorVerify.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.BlankErrorVerify.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.BlankErrorVerify.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.BlankErrorVerify.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.BlankErrorVerify.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.BlankErrorVerify.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.WishListVerify">
+             <summary>
+            The WishListVerify recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.WishListVerify.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.WishListVerify.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.WishListVerify.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.WishListVerify.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.WishListVerify.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.WishListVerify.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.WishListVerify.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.AddCart">
+             <summary>
+            The AddCart recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.AddCart.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.AddCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.AddCart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.AddCart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.AddCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.AddCart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.AddCart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.BuyVerify">
+             <summary>
+            The BuyVerify recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.BuyVerify.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.BuyVerify.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.BuyVerify.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.BuyVerify.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.BuyVerify.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.BuyVerify.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.BuyVerify.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.SignIn">
+             <summary>
+            The SignIn recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.SignIn.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.SignIn.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.SignIn.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.SignIn.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.SignIn.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.SignIn.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.SignIn.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.SignOut">
+             <summary>
+            The SignOut recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.SignOut.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.SignOut.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.SignOut.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.SignOut.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.SignOut.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.SignOut.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.SignOut.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:eCommerceTest.Unfav">
+             <summary>
+            The Unfav recording.
+             </summary>
+        </member>
+        <member name="F:eCommerceTest.Unfav.repo">
+            <summary>
+            Holds an instance of the eCommerceTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.Unfav.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.Unfav.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:eCommerceTest.Unfav.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:eCommerceTest.Unfav.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:eCommerceTest.Unfav.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:eCommerceTest.Unfav.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
