@@ -13,3 +13,5 @@ Vm version: Windows 11
 Ranorex version: 10.1.7
 
 Bilgilendirme videosu linki: https://youtu.be/QGnLt2-x84U
+
+Not: Tum cikti raporlarini ekledim cunku surecin gorulmesini istedim.
