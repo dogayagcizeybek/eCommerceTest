@@ -14,4 +14,8 @@ Ranorex version: 10.1.7
 
 Bilgilendirme videosu linki: https://youtu.be/QGnLt2-x84U
 
-Not: Tum cikti raporlarini ekledim cunku surecin gorulmesini istedim.
+Not1: Tum cikti raporlarini ekledim cunku surecin gorulmesini istedim.
+
+Not2: Video kalitesinin dusuklugunun sebebi youtube'a ilk video yukleme deneyimim olmasidir.
+
+
