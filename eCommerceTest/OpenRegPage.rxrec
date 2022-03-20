@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1e17c850-86b7-4032-a0a0-e0f71e69d655"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenRegPage"
+	namespace="eCommerceTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="True"
+		maximized="True"
+		optional="False">
+			<comment>
+				Open registration page.
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="889654d7-9209-4be5-87db-377b88da0e9e"
+	name="eCommerceTestRepository"
+	relativepath="eCommerceTestRepository.rxrep">
+		<codegen
+		classname="eCommerceTestRepository"
+		namespace="eCommerceTest">
+		</codegen>
+		<rootfolder
+		id="574e4618-85d3-412e-9360-3db2b33eddb5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenRegPage.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

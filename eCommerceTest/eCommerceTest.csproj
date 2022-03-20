@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{37B90107-02B2-4F6F-A5C7-DF228621F79B}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>eCommerceTest</RootNamespace>
+    <AssemblyName>eCommerceTest</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper" />
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Delphi" />
+    <Reference Include="Ranorex.Plugin.FirefoxWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.WinForms.Core" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="Ranorex.Plugin.Wpf.Core" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>8bb23163-337f-4f3d-9dfc-2d813cb7aa45</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>ec70fa9d-7af8-4810-bc63-7737b71afc3f</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>167a0128-04ea-4e3d-aba9-4c5f91accf8c</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>ec70fa9d-7af8-4810-bc63-7737b71afc3f</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5bfc3b12-ccc3-4224-bf1d-f23d0082b122</id>
+    </Compile>
+    <Compile Include="eCommerceTestRepository.cs">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <DependentUpon>eCommerceTestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>d0b450f4-f57f-48df-8b23-6575ca2961af</id>
+    </Compile>
+    <Compile Include="OpenMainPage.cs">
+      <BoundTo>8b8e04ad-04f3-47cb-a5c4-bf1b35f8a22c</BoundTo>
+      <DependentUpon>OpenMainPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e4e0501f-5be7-4a72-bb04-61018847dd4e</id>
+    </Compile>
+    <Compile Include="OpenMainPage.UserCode.cs">
+      <BoundTo>8b8e04ad-04f3-47cb-a5c4-bf1b35f8a22c</BoundTo>
+      <DependentUpon>OpenMainPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>17f7d40b-e980-4c5c-ad39-6574cb1d2231</id>
+    </Compile>
+    <Compile Include="OpenRegPage.cs">
+      <BoundTo>26e74a08-c1ce-46e7-8ad0-c8d1b9002e80</BoundTo>
+      <DependentUpon>OpenRegPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c4e2b0b4-2721-4dac-99c2-40a58858fbec</id>
+    </Compile>
+    <Compile Include="OpenRegPage.UserCode.cs">
+      <BoundTo>26e74a08-c1ce-46e7-8ad0-c8d1b9002e80</BoundTo>
+      <DependentUpon>OpenRegPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2f7f7170-0c33-4c7c-bd19-31fef4d795e6</id>
+    </Compile>
+    <Compile Include="OpenSignInPage.cs">
+      <BoundTo>91e97f08-aeb7-4525-9048-601449dd1926</BoundTo>
+      <DependentUpon>OpenSignInPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>105896e0-e3a7-4d91-b261-5cfd0b880cce</id>
+    </Compile>
+    <Compile Include="OpenSignInPage.UserCode.cs">
+      <BoundTo>91e97f08-aeb7-4525-9048-601449dd1926</BoundTo>
+      <DependentUpon>OpenSignInPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f2a33a51-e927-4eb4-9a90-421bddc0f5e5</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>a0526eae-0b1c-4ed8-aec2-eeffe4a78127</id>
+    </Compile>
+    <Compile Include="PresentVerify.cs">
+      <BoundTo>58741257-dd18-4de4-b972-c3fb42bbd7b0</BoundTo>
+      <DependentUpon>PresentVerify.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3faa69ca-9b69-4b02-a2f4-c4416cfc74b7</id>
+    </Compile>
+    <Compile Include="PresentVerify.UserCode.cs">
+      <BoundTo>58741257-dd18-4de4-b972-c3fb42bbd7b0</BoundTo>
+      <DependentUpon>PresentVerify.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>40ffc650-105b-45cf-9459-971532e80343</id>
+    </Compile>
+    <Compile Include="EmptyErrorVerify.cs">
+      <BoundTo>017e0cee-3ac1-4e95-a93a-f5767373ca97</BoundTo>
+      <DependentUpon>EmptyErrorVerify.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f6e633c8-40fe-4fa0-8220-18223b649473</id>
+    </Compile>
+    <Compile Include="EmptyErrorVerify.UserCode.cs">
+      <BoundTo>017e0cee-3ac1-4e95-a93a-f5767373ca97</BoundTo>
+      <DependentUpon>EmptyErrorVerify.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d860675b-5b51-40d8-9620-d9d47b158618</id>
+    </Compile>
+    <Compile Include="BlankErrorVerify.cs">
+      <BoundTo>e2d768d5-f254-4780-995f-689f0b3ed6dd</BoundTo>
+      <DependentUpon>BlankErrorVerify.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6bedf5f1-7491-4c46-a9b3-859b46542a87</id>
+    </Compile>
+    <Compile Include="BlankErrorVerify.UserCode.cs">
+      <BoundTo>e2d768d5-f254-4780-995f-689f0b3ed6dd</BoundTo>
+      <DependentUpon>BlankErrorVerify.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c478f7e8-a780-4233-82ef-605f367398ba</id>
+    </Compile>
+    <Compile Include="WishListVerify.cs">
+      <BoundTo>18105842-f0d6-4f26-8e60-bd22632070de</BoundTo>
+      <DependentUpon>WishListVerify.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7a9b7838-4cf9-4901-9dac-7bc2dd7a9f4a</id>
+    </Compile>
+    <Compile Include="WishListVerify.UserCode.cs">
+      <BoundTo>18105842-f0d6-4f26-8e60-bd22632070de</BoundTo>
+      <DependentUpon>WishListVerify.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>38f85c11-57ce-4380-a78e-410d24abbf18</id>
+    </Compile>
+    <Compile Include="AddCart.cs">
+      <BoundTo>35ff20c5-9552-4ec5-bfab-d744a58b80db</BoundTo>
+      <DependentUpon>AddCart.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ab748a89-5639-4cf7-8848-30fac42b5166</id>
+    </Compile>
+    <Compile Include="AddCart.UserCode.cs">
+      <BoundTo>35ff20c5-9552-4ec5-bfab-d744a58b80db</BoundTo>
+      <DependentUpon>AddCart.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a2649844-84a5-4ae8-891c-4fc0627533ea</id>
+    </Compile>
+    <Compile Include="BuyVerify.cs">
+      <BoundTo>1a61d70c-1acc-4237-add5-8f8c82e58830</BoundTo>
+      <DependentUpon>BuyVerify.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c1ffeb71-bf29-42ad-9ccc-45b9ac56a4a3</id>
+    </Compile>
+    <Compile Include="BuyVerify.UserCode.cs">
+      <BoundTo>1a61d70c-1acc-4237-add5-8f8c82e58830</BoundTo>
+      <DependentUpon>BuyVerify.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f6a23260-d430-4cf8-88e7-f6bee6fa8f56</id>
+    </Compile>
+    <Compile Include="SignIn.cs">
+      <BoundTo>bcef999d-adee-4806-abae-fb0e62e99927</BoundTo>
+      <DependentUpon>SignIn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7bbb9944-ff70-48d4-b65d-c0fed84fedac</id>
+    </Compile>
+    <Compile Include="SignIn.UserCode.cs">
+      <BoundTo>bcef999d-adee-4806-abae-fb0e62e99927</BoundTo>
+      <DependentUpon>SignIn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c074e670-3f0c-40ad-9cef-376bec4bac4d</id>
+    </Compile>
+    <Compile Include="SignOut.cs">
+      <BoundTo>de1d3af1-1f87-4904-94de-a6f30fbba817</BoundTo>
+      <DependentUpon>SignOut.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ea12a690-a101-4bf0-abc9-a3a0038f3720</id>
+    </Compile>
+    <Compile Include="SignOut.UserCode.cs">
+      <BoundTo>de1d3af1-1f87-4904-94de-a6f30fbba817</BoundTo>
+      <DependentUpon>SignOut.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e73e8a94-3737-4bce-86bd-ef8ba98dc10f</id>
+    </Compile>
+    <Compile Include="Unfav.cs">
+      <BoundTo>884efa1b-6774-4cff-8734-b891a39dc019</BoundTo>
+      <DependentUpon>Unfav.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ff9c985c-4fce-40e4-91f9-3984c5671f20</id>
+    </Compile>
+    <Compile Include="Unfav.UserCode.cs">
+      <BoundTo>884efa1b-6774-4cff-8734-b891a39dc019</BoundTo>
+      <DependentUpon>Unfav.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>92099087-3a18-4548-98c1-f3809dfe6374</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>b8c66126-8c1b-4f72-8914-308e67984b42</id>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>ec70fa9d-7af8-4810-bc63-7737b71afc3f</id>
+      <recordtableid>7bc0b5d4-3b30-4cae-8700-b9f3943982aa</recordtableid>
+    </None>
+    <None Include="eCommerceTestRepository.rximg">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <DependentUpon>eCommerceTestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>48982fce-4627-4a9f-a4a6-ac89b02c6797</id>
+    </None>
+    <None Include="eCommerceTestRepository.rxrep">
+      <id>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</id>
+      <repoid>889654d7-9209-4be5-87db-377b88da0e9e</repoid>
+      <reporootid>574e4618-85d3-412e-9360-3db2b33eddb5</reporootid>
+    </None>
+    <None Include="OpenMainPage.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>8b8e04ad-04f3-47cb-a5c4-bf1b35f8a22c</id>
+      <recordtableid>b98ae014-d508-4e65-9f5d-adda525c4292</recordtableid>
+    </None>
+    <None Include="OpenRegPage.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>26e74a08-c1ce-46e7-8ad0-c8d1b9002e80</id>
+      <recordtableid>1e17c850-86b7-4032-a0a0-e0f71e69d655</recordtableid>
+    </None>
+    <None Include="OpenSignInPage.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>91e97f08-aeb7-4525-9048-601449dd1926</id>
+      <recordtableid>c5b37d91-b7e2-4f55-9248-e15cde70c7f5</recordtableid>
+    </None>
+    <None Include="PresentVerify.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>58741257-dd18-4de4-b972-c3fb42bbd7b0</id>
+      <recordtableid>a9d5ff35-adbe-4b1c-a09e-f80bc8f40e47</recordtableid>
+    </None>
+    <None Include="EmptyErrorVerify.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>017e0cee-3ac1-4e95-a93a-f5767373ca97</id>
+      <recordtableid>52d8fa9c-d774-4477-837c-bbab1b9f6256</recordtableid>
+    </None>
+    <None Include="BlankErrorVerify.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>e2d768d5-f254-4780-995f-689f0b3ed6dd</id>
+      <recordtableid>9e39572a-c9a3-4831-99eb-3f351a7c6325</recordtableid>
+    </None>
+    <None Include="WishListVerify.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>18105842-f0d6-4f26-8e60-bd22632070de</id>
+      <recordtableid>8877c11f-8e57-4cce-a038-558ae4f1d2a3</recordtableid>
+    </None>
+    <None Include="AddCart.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>35ff20c5-9552-4ec5-bfab-d744a58b80db</id>
+      <recordtableid>760c0a2a-c6da-4974-bd8f-baaa5b87f081</recordtableid>
+    </None>
+    <None Include="BuyVerify.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>1a61d70c-1acc-4237-add5-8f8c82e58830</id>
+      <recordtableid>973125fc-f607-4852-a05a-b0d94fb657ce</recordtableid>
+    </None>
+    <None Include="SignIn.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>bcef999d-adee-4806-abae-fb0e62e99927</id>
+      <recordtableid>2a3ad9b9-2dc7-4176-8517-56f46857c2f1</recordtableid>
+    </None>
+    <None Include="SignOut.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>de1d3af1-1f87-4904-94de-a6f30fbba817</id>
+      <recordtableid>ef7927cc-3598-46b6-b053-d36639a7303d</recordtableid>
+    </None>
+    <None Include="Unfav.rxrec">
+      <BoundTo>e191dcd6-70e3-4a75-8a6d-936c32eb8b9b</BoundTo>
+      <id>884efa1b-6774-4cff-8734-b891a39dc019</id>
+      <recordtableid>ce02acc2-87d3-40b1-b158-bff030cd44fb</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="eCommerceTest.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a4dc7f55-5bf7-4747-aaf8-32fe35df98e2</id>
+    </Content>
+    <Content Include="eCommerceTest.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1ab43773-1f9d-4a81-8c43-0b2db60e1492</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

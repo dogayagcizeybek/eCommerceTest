@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7bc0b5d4-3b30-4cae-8700-b9f3943982aa"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="eCommerceTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="f7784ae7-82ff-4757-a665-ea183a7a18de">
+			<comment>
+				Close current page.
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d910ef29-8066-4842-b8cc-c6d806213457"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="889654d7-9209-4be5-87db-377b88da0e9e"
+	name="eCommerceTestRepository"
+	relativepath="eCommerceTestRepository.rxrep">
+		<codegen
+		classname="eCommerceTestRepository"
+		namespace="eCommerceTest">
+		</codegen>
+		<rootfolder
+		id="574e4618-85d3-412e-9360-3db2b33eddb5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
