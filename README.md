@@ -1,6 +1,6 @@
 # Face-Recognition-OpenCV-Facenet
 This is an implementation Facial Recognition using OpenCV implementation of Facenet and SVM
-DEGISIKLIK
+DEGISIKLIK1
 
 Setup before running the code:
 1. Create dataset folder
